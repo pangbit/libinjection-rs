@@ -1,17 +1,15 @@
 [package]
-authors = ["Navid <yaa110@gmail.com>"]
 categories = ["api-bindings", "external-ffi-bindings"]
 description = "Rust bindings for libinjection"
 documentation = "https://docs.rs/libinjection"
 edition = "2021"
-homepage = "https://github.com/yaa110/libinjection-rs"
+homepage = "https://github.com/pangbit/libinjection-rs"
 keywords = ["sqli", "xss", "injection"]
 license = "MIT/Apache-2.0"
 name = "libinjection"
 readme = "README.md"
-repository = "https://github.com/yaa110/libinjection-rs"
-version = "0.3.4"
+repository = "https://github.com/pangbit/libinjection-rs"
+version = "0.3.5"
 
 [build-dependencies]
-bindgen = "0.68"
-git2 = "0.18"
+bindgen = "0.70"
